@@ -694,7 +694,7 @@ progress::-moz-progress-bar {
   }
 
   .blockquote {
-    margin-left: 1rem;
+    max-width: 800px;
     align-self: center;
   }
 }
@@ -736,5 +736,9 @@ progress::-moz-progress-bar {
 
   .services .section-title {
     grid-column: span 3;
+  }
+  .carousel blockquote {
+    max-width: 800px;
+    text-align: center;
   }
 }
