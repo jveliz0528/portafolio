@@ -693,6 +693,16 @@ progress::-moz-progress-bar {
     grid-column: span 2;
   }
 
+  .testimonios > .container {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .testimonios .section-title {
+    grid-column: span 2;
+  }
   .blockquote {
     max-width: 800px;
     align-self: center;
@@ -735,6 +745,14 @@ progress::-moz-progress-bar {
   }
 
   .services .section-title {
+    grid-column: span 3;
+  }
+
+  .testimonios > .container {
+    grid-template-columns: repeat(3, 30%);
+  }
+
+  .testimonios .section-title {
     grid-column: span 3;
   }
   .carousel blockquote {
